@@ -1,0 +1,51 @@
+body{
+    width:968px;
+}
+.title_box{
+background: url(../img/main_bg.jpg); 
+background-size:cover; 
+background-position: center;
+height:250px; 
+color:aliceblue; 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.title_box h1{
+  font-size: 48px ;
+}
+
+.title_box p{
+  font-size: 32px;
+}
+
+.text_box{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.text_box div{
+    width:90%; 
+}
+.img_box{
+    display: flex;
+    background:silver; 
+}
+
+.img_box_img, 
+.img_box_txt {
+    width: 50%; 
+}
+.image{
+    width:100%; 
+}
+.img_box_txt{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width:85%; 
+}
